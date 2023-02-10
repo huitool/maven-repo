@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.12.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>com.huitool</groupId>
+    <artifactId>huitool-spring-boot</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>huitool-core</module>
+        <module>huitool-components</module>
+        <module>huitool-spring-boot-autoconfigure</module>
+        <module>huitool-spring-boot-starter</module>
+    </modules>
+
+    <properties>
+        <huitool.version>0.1-SNAPSHOT</huitool.version>
+        <mybatis-spring-boot.version>2.1.1</mybatis-spring-boot.version>
+        <logstash-logback-encoder.version>6.2</logstash-logback-encoder.version>
+        <poi.version>4.1.1</poi.version>
+        <spring-data-releasetrain.version>Lovelace-SR10</spring-data-releasetrain.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-spring-boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter-test</artifactId>
+                <version>${mybatis-spring-boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.huitool</groupId>
+                <artifactId>huitool-core</artifactId>
+                <version>${huitool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.huitool</groupId>
+                <artifactId>huitool-components</artifactId>
+                <version>${huitool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.huitool</groupId>
+                <artifactId>huitool-spring-boot-autoconfigure</artifactId>
+                <version>${huitool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.huitool</groupId>
+                <artifactId>huitool-spring-boot-starter</artifactId>
+                <version>${huitool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.logstash.logback</groupId>
+                <artifactId>logstash-logback-encoder</artifactId>
+                <version>${logstash-logback-encoder.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+
+        <repository>
+            <id>central</id>
+            <name>libs-release</name>
+            <url>https://repo.spring.io/libs-release</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>local-repo-release</id>
+            <name>Git Repository Release</name>
+            <url>file://${env.HUITOOLS-MAVEN-REPO}</url>
+        </repository>
+    </distributionManagement>
+</project>
