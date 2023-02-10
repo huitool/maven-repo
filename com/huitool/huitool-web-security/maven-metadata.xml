@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.huitool</groupId>
+  <artifactId>huitool-web-security</artifactId>
+  <versioning>
+    <versions>
+      <version>2022.2.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230210021407</lastUpdated>
+  </versioning>
+</metadata>
