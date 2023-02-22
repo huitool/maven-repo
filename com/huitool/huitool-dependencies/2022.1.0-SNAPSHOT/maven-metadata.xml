@@ -3,16 +3,16 @@
   <groupId>com.huitool</groupId>
   <artifactId>huitool-dependencies</artifactId>
   <versioning>
-    <lastUpdated>20230210013955</lastUpdated>
+    <lastUpdated>20230222022140</lastUpdated>
     <snapshot>
-      <timestamp>20230210.013955</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20230222.022140</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2022.1.0-20230210.013955-3</value>
-        <updated>20230210013955</updated>
+        <value>2022.1.0-20230222.022140-4</value>
+        <updated>20230222022140</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
