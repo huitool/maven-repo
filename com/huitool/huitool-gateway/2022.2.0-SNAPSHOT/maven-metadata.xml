@@ -3,21 +3,21 @@
   <groupId>com.huitool</groupId>
   <artifactId>huitool-gateway</artifactId>
   <versioning>
-    <lastUpdated>20230302093409</lastUpdated>
+    <lastUpdated>20230316060833</lastUpdated>
     <snapshot>
-      <timestamp>20230302.093409</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20230316.060833</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2022.2.0-20230302.093409-2</value>
-        <updated>20230302093409</updated>
+        <value>2022.2.0-20230316.060833-3</value>
+        <updated>20230316060833</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2022.2.0-20230302.093409-2</value>
-        <updated>20230302093409</updated>
+        <value>2022.2.0-20230316.060833-3</value>
+        <updated>20230316060833</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
