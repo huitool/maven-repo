@@ -3,16 +3,16 @@
   <groupId>com.huitool</groupId>
   <artifactId>huitool-web-security</artifactId>
   <versioning>
-    <lastUpdated>20230509030047</lastUpdated>
+    <lastUpdated>20230524082937</lastUpdated>
     <snapshot>
-      <timestamp>20230509.030047</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20230524.082937</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2022.2.0-20230509.030047-6</value>
-        <updated>20230509030047</updated>
+        <value>2022.2.0-20230524.082937-7</value>
+        <updated>20230524082937</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

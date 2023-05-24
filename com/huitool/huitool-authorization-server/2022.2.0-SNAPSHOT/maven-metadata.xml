@@ -3,21 +3,21 @@
   <groupId>com.huitool</groupId>
   <artifactId>huitool-authorization-server</artifactId>
   <versioning>
-    <lastUpdated>20230509030047</lastUpdated>
+    <lastUpdated>20230524082937</lastUpdated>
     <snapshot>
-      <timestamp>20230509.030047</timestamp>
-      <buildNumber>5</buildNumber>
+      <timestamp>20230524.082937</timestamp>
+      <buildNumber>6</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2022.2.0-20230509.030047-5</value>
-        <updated>20230509030047</updated>
+        <value>2022.2.0-20230524.082937-6</value>
+        <updated>20230524082937</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2022.2.0-20230509.030047-5</value>
-        <updated>20230509030047</updated>
+        <value>2022.2.0-20230524.082937-6</value>
+        <updated>20230524082937</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
