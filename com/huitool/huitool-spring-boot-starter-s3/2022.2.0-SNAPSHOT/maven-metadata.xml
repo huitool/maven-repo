@@ -3,21 +3,21 @@
   <groupId>com.huitool</groupId>
   <artifactId>huitool-spring-boot-starter-s3</artifactId>
   <versioning>
-    <lastUpdated>20230424021829</lastUpdated>
+    <lastUpdated>20230531035404</lastUpdated>
     <snapshot>
-      <timestamp>20230424.021829</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20230531.035404</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2022.2.0-20230424.021829-3</value>
-        <updated>20230424021829</updated>
+        <value>2022.2.0-20230531.035404-4</value>
+        <updated>20230531035404</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2022.2.0-20230424.021829-3</value>
-        <updated>20230424021829</updated>
+        <value>2022.2.0-20230531.035404-4</value>
+        <updated>20230531035404</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

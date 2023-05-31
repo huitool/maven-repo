@@ -3,16 +3,16 @@
   <groupId>com.huitool</groupId>
   <artifactId>huitool-spring-boot-starters</artifactId>
   <versioning>
-    <lastUpdated>20230424021829</lastUpdated>
+    <lastUpdated>20230531035404</lastUpdated>
     <snapshot>
-      <timestamp>20230424.021829</timestamp>
-      <buildNumber>5</buildNumber>
+      <timestamp>20230531.035404</timestamp>
+      <buildNumber>6</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2022.2.0-20230424.021829-5</value>
-        <updated>20230424021829</updated>
+        <value>2022.2.0-20230531.035404-6</value>
+        <updated>20230531035404</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
