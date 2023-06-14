@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.huitool</groupId>
+    <artifactId>huitool-dependencies</artifactId>
+    <version>2022.3.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <huitool.version>2022.3.0-SNAPSHOT</huitool.version>
+        <mybatis-spring-boot.version>2.1.4</mybatis-spring-boot.version>
+        <logstash-logback-encoder.version>6.2</logstash-logback-encoder.version>
+        <poi.version>5.2.2</poi.version>
+        <springfox.version>3.0.0</springfox.version>
+        <spring-cloud-aws.version>2.3.4</spring-cloud-aws.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.awspring.cloud</groupId>
+                <artifactId>spring-cloud-aws-dependencies</artifactId>
+                <version>${spring-cloud-aws.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.huitool</groupId>
+                <artifactId>huitool-core</artifactId>
+                <version>${huitool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.huitool</groupId>
+                <artifactId>huitool-components</artifactId>
+                <version>${huitool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.huitool</groupId>
+                <artifactId>huitool-spring-boot-autoconfigure</artifactId>
+                <version>${huitool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.huitool</groupId>
+                <artifactId>huitool-spring-boot-starter</artifactId>
+                <version>${huitool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.huitool</groupId>
+                <artifactId>huitool-spring-boot-starter-s3</artifactId>
+                <version>${huitool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-spring-boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter-test</artifactId>
+                <version>${mybatis-spring-boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.logstash.logback</groupId>
+                <artifactId>logstash-logback-encoder</artifactId>
+                <version>${logstash-logback-encoder.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-boot-starter</artifactId>
+                <version>${springfox.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>local-repo-release</id>
+            <name>GitHub Release</name>
+            <url>file://${env.HUITOOLS-MAVEN-REPO}</url>
+        </repository>
+    </distributionManagement>
+</project>
