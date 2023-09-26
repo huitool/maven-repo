@@ -3,21 +3,21 @@
   <groupId>com.huitool</groupId>
   <artifactId>security-commons</artifactId>
   <versioning>
-    <lastUpdated>20230524082937</lastUpdated>
+    <lastUpdated>20230926084731</lastUpdated>
     <snapshot>
-      <timestamp>20230524.082937</timestamp>
-      <buildNumber>7</buildNumber>
+      <timestamp>20230926.084731</timestamp>
+      <buildNumber>9</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2022.2.0-20230524.082937-7</value>
-        <updated>20230524082937</updated>
+        <value>2022.2.0-20230926.084731-9</value>
+        <updated>20230926084731</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2022.2.0-20230524.082937-7</value>
-        <updated>20230524082937</updated>
+        <value>2022.2.0-20230926.084731-9</value>
+        <updated>20230926084731</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
