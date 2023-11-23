@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.huitool</groupId>
+  <artifactId>security-commons</artifactId>
+  <versioning>
+    <lastUpdated>20231123063914</lastUpdated>
+    <snapshot>
+      <timestamp>20231123.063914</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2023.1.0-20231123.063914-1</value>
+        <updated>20231123063914</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2023.1.0-20231123.063914-1</value>
+        <updated>20231123063914</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>2023.1.0-SNAPSHOT</version>
+</metadata>
